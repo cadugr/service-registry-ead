@@ -1,0 +1,12 @@
+server:
+  port: 8761
+  
+spring:
+  application:
+    name: ead-service-registry  
+
+eureka:
+  client:
+    register-with-eureka: false #indica que esta aplicacao não se registra como client dela mesma
+    fetch-registry: false 
+    
